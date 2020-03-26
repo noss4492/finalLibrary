@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 여기서는 main이 ClassPath가 됩니다.  -->
+
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+<configuration>
+	<typeAliases>
+		<typeAlias type="kr.co.jhta.dto.ArticleDTO" alias="adto" />
+		<typeAlias type="kr.co.jhta.dto.PageStartEnd" alias="se"/>
+		<!-- 매퍼에서 쿼리할대 파라메터로 사용하기 위해서 등록함. -->
+	</typeAliases>
+</configuration>
