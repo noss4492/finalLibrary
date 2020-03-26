@@ -20,11 +20,11 @@
 		<c:out value="${logout}" />
 	</h2>
 	
-	<form action="<c:url value="/login" />" method="post">
+	<form action='<c:url value="/login" />' method="post"><!-- 이게 로그인페이지 주소가 무조건 고정되어 있다고? -->
 		<table>
 			<tr>
 				<th>ID</th>
-				<td><input type="text" name="username" value="noss" id="" /></td>
+				<td><input type="text" name="username" value="admin" id="" /></td>
 			</tr>
 			<tr>
 				<th>password</th>

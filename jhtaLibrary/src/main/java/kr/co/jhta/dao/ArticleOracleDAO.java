@@ -22,7 +22,7 @@ public class ArticleOracleDAO implements ArticleDAO {
 	
 	@Override
 	public List<ArticleDTO> selectAll(int startNo, int endNo) {
-		PageStartEnd se = new PageStartEnd(startNo, endNo); // �̰� �ʿ��ѵ� ��� �����;� �ұ�
+		PageStartEnd se = new PageStartEnd(startNo, endNo); 
 		return ss.selectList("kr.co.jhta.board.selectAll", se);
 	}
 
